@@ -1,0 +1,260 @@
+2023-09-13T19:06:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:07:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:07:35+00:00 CRITICAL Uncaught Error: Call to undefined function calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:102
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 102
+
+2023-09-13T19:07:48+00:00 CRITICAL Uncaught Error: Call to undefined function calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:102
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 102
+
+2023-09-13T19:09:25+00:00 CRITICAL Uncaught Error: Call to undefined function calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:102
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 102
+
+2023-09-13T19:11:25+00:00 CRITICAL Uncaught Error: Call to undefined function calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:102
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 102
+
+2023-09-13T19:13:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_sku(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 109 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:820
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(109): WC_Product->set_sku()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 820
+
+2023-09-13T19:13:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_sku(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 109 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:820
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(109): WC_Product->set_sku()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 820
+
+2023-09-13T19:13:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:15:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:17:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:19:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_regular_price(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 101 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:853
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(101): WC_Product->set_regular_price()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_on в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 853
+
+2023-09-13T19:21:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:101
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 101
+
+2023-09-13T19:21:08+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:101
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 101
+
+2023-09-13T19:21:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::calculate_variation_price() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:101
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 101
+
+2023-09-13T19:22:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_sku(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 105 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:820
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(105): WC_Product->set_sku()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 820
+
+2023-09-13T19:23:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_sku(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 105 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:820
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(105): WC_Product->set_sku()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 820
+
+2023-09-13T19:25:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_sku(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 105 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:820
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(105): WC_Product->set_sku()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 820
+
+2023-09-13T19:27:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_stock_quantity(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 108 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:968
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(108): WC_Product->set_stock_quantity()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 968
+
+2023-09-13T19:28:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_stock_quantity(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 108 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:968
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(108): WC_Product->set_stock_quantity()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 968
+
+2023-09-13T19:28:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::set_stock_quantity(), 0 passed in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php on line 108 and exactly 1 expected in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:968
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php(108): WC_Product->set_stock_quantity()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#5 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_ в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php на строке 968
+
+2023-09-13T19:30:30+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::set_attribute() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:111
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 111
+
+2023-09-13T19:30:39+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::set_attribute() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:111
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 111
+
+2023-09-13T19:32:41+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variation::set_variation_attributes() in C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php:112
+Stack trace:
+#0 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(310): import_products_once_a_day()
+#1 C:\OpenServer\domains\localhost\wppi\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\localhost\wppi\wp-includes\plugin.php(517): WP_Hook->do_action()
+#3 C:\OpenServer\domains\localhost\wppi\wp-settings.php(654): do_action()
+#4 C:\OpenServer\domains\localhost\wppi\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\localhost\wppi\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\localhost\wppi\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\localhost\wppi\wp-content\plugins\product_import\product_import.php на строке 112
+
